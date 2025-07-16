@@ -5,7 +5,7 @@ A React-based portfolio website with animated sections, contact form with email 
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Prashantmahor/Prashant-s-Portfolio.git
 cd your-repo-name
 npm install
 npm run dev
