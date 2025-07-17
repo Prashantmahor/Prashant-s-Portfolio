@@ -46,16 +46,16 @@ const Contact = () => {
       );
 
       // Send auto-reply to user
-      await emailjs.send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_AUTOREPLY_TEMPLATE_ID,
-        {
-          to_name: form.name,
-          to_email: form.email,
-          from_name: "Prashant Mahor",
-        },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-      );
+      // await emailjs.send(
+      //   import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+      //   import.meta.env.VITE_APP_EMAILJS_AUTOREPLY_TEMPLATE_ID,
+      //   {
+      //     to_name: form.name,
+      //     to_email: form.email,
+      //     from_name: "Prashant Mahor",
+      //   },
+      //   import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+      // );
 
       setLoading(false);
       alert("Thank you. I will get back to you as soon as possible.");

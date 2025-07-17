@@ -48,6 +48,12 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "cv",
+    title: "My CV",
+    href: "/My CV.pdf",
+    download: true, 
+  },
 ];
 
 const services = [
