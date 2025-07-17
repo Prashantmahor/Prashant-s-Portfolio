@@ -51,7 +51,7 @@ export const navLinks = [
   {
     id: "cv",
     title: "My CV",
-    href: "/My CV.pdf",
+    href: "/My_CV.pdf",
     download: true, 
   },
 ];
